@@ -1,0 +1,20 @@
+First run :
+    i2cdetect -y 1
+    sudo apt install libnfc5 libnfc-bin libnfc-examples
+
+Once done , run :
+    nfc-list -v 
+    nfc-scan-device -v 
+
+And if it doesn't show the reader , open this :
+    sudo nano /etc/nfc/libnfc.conf
+    
+and add these 2 lines to the end of the file :
+    device.name = "PN532 over I2C"
+    device.connstring = "pn532_i2c:/dev/i2c-1"
+    
+Then running this , will show the device :
+    nfc-scan-device -v
+
+And then run this and it will read the card's data :
+    nfc-poll 
