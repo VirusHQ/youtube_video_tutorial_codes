@@ -60,6 +60,8 @@ void loop(void) {
       cardid |= uid[3];
       Serial.print("Seems to be a Mifare Classic card #");
       Serial.println(cardid);
+      Serial.println("");
+      Serial.println("");
     }
     delay(2000);
   }
