@@ -36,7 +36,4 @@ This repo is organized by tutorial topics. Each folder contains the code, wiring
 ## 🤝 Contributing
 Found a bug? Have an improvement? Feel free to open an issue or submit a pull request. Let's make these tutorials even better!
 
-## 📜 License
-This repository is licensed under the MIT License - see the [LICENSE](LICENSE) file for details (if applicable).
-
 Thanks for visiting! Now go watch some videos and start hacking! 🔧💻 
